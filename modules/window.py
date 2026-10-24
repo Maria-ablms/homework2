@@ -37,7 +37,7 @@ button_counter = [0]
 
 counter_label = QLabel("0", parent=main_frame)
 counter_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
-counter_label.setStyleSheet("font-size: 40px;" "color: white;" "font-weight: bold;" "background: transparent;")
+counter_label.setStyleSheet("font-size: 40px;" "color: white;" "background: transparent;")
 
 
 def click_plus():
@@ -88,16 +88,6 @@ main_frame.setLayout(main_layout)
 
 
 
-# main_frame.setLayout(main_layout)
-
-
-# primary_button = QPushButton("0", parent= main_frame)
-# main_layout.addWidget(primary_button)
-# primary_button.setStyleSheet("font_size: 36px, border: 20 px, solid, green; padding:50px; background-color: #FFB6C1; color: white")
-
-# button_1 = QPushButton("+", parent= main_frame,)
-# main_layout.addWidget(primary_button)
-# button_1.setStyleSheet("border: 2px, solid, #007BA7, background-color: #40E0D0,  color: #00008B")
 
 
 
@@ -106,10 +96,6 @@ main_frame.setLayout(main_layout)
 
 
 
-
-
-# list1= ["10", "9", "8", "7", "6", "5", "4", "3", "2", "1"]
-# list2 = ["-10", "-9", "-8", "-7", "-6", "-5", "-4", "-3", "-2", "-1"]
 
 
 
